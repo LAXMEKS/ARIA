@@ -1,0 +1,256 @@
+text,label
+what is the weather today,weather_query
+will it rain tomorrow,weather_query
+what is the temperature outside,weather_query
+is it going to be sunny this weekend,weather_query
+what is the weather in Chennai,weather_query
+should I carry an umbrella,weather_query
+how is the weather in Bangalore,weather_query
+what is today's forecast,weather_query
+is it cold outside right now,weather_query
+what will the weather be like next week,weather_query
+bro whats the weather today,weather_query
+iniki weather enna,weather_query
+hows sky today,weather_query
+naaliku rain varuma,weather_query
+chennai la enna weather ipo,weather_query
+chennaila epo malai varum,weather_query
+weather report sollu,weather_query
+ipo outside temperature enna,weather_query
+today hot ah irukka,weather_query
+naaliku sun irukuma,weather_query
+weekend weather enna irukum,weather_query
+mumbai weather enna,weather_query
+is it humid today,weather_query
+will there be a storm today,weather_query
+ipo kaathu irukka outside,weather_query
+will it be windy tomorrow,weather_query
+how hot is it outside,weather_query
+iniki mazhai varuma,weather_query
+evening la rain varuma,weather_query
+sivakasi weather enna,weather_query
+next week rain irukuma,weather_query
+today night temperature enna,weather_query
+morning weather enna irukum,weather_query
+is it safe to go out today,weather_query
+weather forecast for this month,weather_query
+ipo degree enna iruku outside,weather_query
+today cloudy ah irukka,weather_query
+is the weather good for a drive today,weather_query
+morning la kaathu adikuma,weather_query
+iniki evening cool ah irukuma,weather_query
+tomorrow morning temperature sollu,weather_query
+this week weather summary sollu,weather_query
+will it be foggy tomorrow morning,weather_query
+iniki wind speed enna,weather_query
+rain chance enna today,weather_query
+weather update kudu,weather_query
+is it going to be cold this winter,weather_query
+tell me the weather for next monday,weather_query
+naaliku kaathu adikuma,weather_query
+iniki sun irukuma,weather_query
+turn on the bedroom light,device_control
+switch off the fan,device_control
+turn off all the lights,device_control
+set the AC to 22 degrees,device_control
+turn on the TV,device_control
+switch on the kitchen light,device_control
+turn off the music,device_control
+increase the fan speed,device_control
+turn on the living room lamp,device_control
+switch off the AC,device_control
+light off pannuda,device_control
+mamey switch off the lights,device_control
+bathroom light off pannu,device_control
+kitchen light off pannu,device_control
+hall light off pannu,device_control
+fan off panuda,device_control
+fan ah 15 numberla vai,device_control
+increase fan speed,device_control
+turn off tv,device_control
+tv off pannu,device_control
+tv on pannu,device_control
+tv podu,device_control
+ac podu,device_control
+light podu,device_control
+dim the lights please,device_control
+turn on the geyser,device_control
+switch off the geyser,device_control
+increase AC temperature,device_control
+decrease AC temperature,device_control
+set AC to 18 degrees,device_control
+pause the music,device_control
+play the next song,device_control
+volume increase pannu,device_control
+volume decrease pannu,device_control
+mute the TV,device_control
+unmute the speaker,device_control
+hall fan on pannu,device_control
+bedroom AC off pannu,device_control
+all devices off pannu,device_control
+switch on the porch light,device_control
+set fan to speed 3,device_control
+desk lamp on pannu,device_control
+night light on pannu,device_control
+ceiling fan slow pannu,device_control
+exhaust fan on pannu,device_control
+monitor off pannu,device_control
+printer on pannu,device_control
+router restart pannu,device_control
+speaker volume max pannu,device_control
+TV brightness increase pannu,device_control
+what is machine learning,knowledge_query
+explain neural networks,knowledge_query
+what is quantization in AI,knowledge_query
+how does a transformer work,knowledge_query
+what is the difference between AI and ML,knowledge_query
+explain edge AI to me,knowledge_query
+what is a large language model,knowledge_query
+how does speech recognition work,knowledge_query
+what is TFLite used for,knowledge_query
+explain what RAG means in AI,knowledge_query
+machine learning na enna,knowledge_query
+deep learning na enna,knowledge_query
+what is an API,knowledge_query
+tell me about machine learning,knowledge_query
+tell me about neural networks,knowledge_query
+tell me about edge ai,knowledge_query
+tell me what quantization is,knowledge_query
+what is Python used for,knowledge_query
+explain object oriented programming,knowledge_query
+what is the difference between CPU and GPU,knowledge_query
+what is a neural network,knowledge_query
+how does ChatGPT work,knowledge_query
+what is backpropagation,knowledge_query
+what is overfitting in ML,knowledge_query
+explain bias variance tradeoff,knowledge_query
+what is ONNX,knowledge_query
+what is the difference between TFLite and PyTorch,knowledge_query
+what is a vector database,knowledge_query
+what is LangChain used for,knowledge_query
+explain what embeddings are,knowledge_query
+what is RAG in simple terms,knowledge_query
+what is computer vision,knowledge_query
+explain convolutional neural networks,knowledge_query
+what is transfer learning,knowledge_query
+what is fine tuning an LLM,knowledge_query
+how does Whisper work,knowledge_query
+what is the difference between STT and TTS,knowledge_query
+what is ChromaDB,knowledge_query
+explain what a token is in AI,knowledge_query
+what is prompt engineering,knowledge_query
+AI na enna sollu,knowledge_query
+robot eppadi work aagum,knowledge_query
+what is reinforcement learning,knowledge_query
+what is the Raspberry Pi used for,knowledge_query
+explain MQTT protocol,knowledge_query
+what is FreeRTOS,knowledge_query
+how does face detection work,knowledge_query
+what is Ollama,knowledge_query
+what is the difference between classification and regression,knowledge_query
+ESP32 na enna,knowledge_query
+what is an embedding vector,knowledge_query
+how does RAG improve LLM accuracy,knowledge_query
+what is semantic search,knowledge_query
+explain what a tokenizer does,knowledge_query
+what is temperature in LLM,knowledge_query
+set a timer for 5 minutes,timer_alarm
+remind me in 10 minutes,timer_alarm
+set an alarm for 7am tomorrow,timer_alarm
+wake me up at 6 in the morning,timer_alarm
+set a 30 second timer,timer_alarm
+remind me to take medicine at 8pm,timer_alarm
+set a countdown for 1 hour,timer_alarm
+alarm for tomorrow morning at 5am,timer_alarm
+set a timer for 15 minutes,timer_alarm
+remind me after 2 hours,timer_alarm
+5 minutes timer vei,timer_alarm
+naaliku kaila 6 mani ku ezhupu,timer_alarm
+medicine time reminder set pannu,timer_alarm
+meeting reminder 3pm ku set pannu,timer_alarm
+alarm 5am ku set pannu,timer_alarm
+10 minute countdown start pannu,timer_alarm
+remind me to drink water every hour,timer_alarm
+set alarm for Sunday 8am,timer_alarm
+45 minute timer set pannu,timer_alarm
+wake me up in 30 minutes,timer_alarm
+lunch reminder set pannu 1pm ku,timer_alarm
+gym reminder tomorrow 6am,timer_alarm
+set a 2 minute timer,timer_alarm
+remind me to call mom at 7pm,timer_alarm
+set alarm for Monday morning,timer_alarm
+20 second timer start pannu,timer_alarm
+daily alarm 6am ku set pannu,timer_alarm
+sleep timer 45 minutes,timer_alarm
+remind me before the meeting,timer_alarm
+alarm cancel pannu,timer_alarm
+how long until my alarm,timer_alarm
+set recurring alarm every day 7am,timer_alarm
+snooze alarm for 10 minutes,timer_alarm
+cooking timer 20 minutes set pannu,timer_alarm
+work reminder 9am ku set pannu,timer_alarm
+evening walk reminder 6pm set pannu,timer_alarm
+set timer for workout 40 minutes,timer_alarm
+break reminder every 2 hours,timer_alarm
+night alarm 10pm sleep time,timer_alarm
+birthday reminder set pannu,timer_alarm
+3 hour timer start pannu,timer_alarm
+interview reminder tomorrow 10am,timer_alarm
+project deadline reminder set pannu,timer_alarm
+call reminder 5pm ku set pannu,timer_alarm
+tablet time reminder evening 7,timer_alarm
+set alarm for friday 9am,timer_alarm
+naaliku 7 mani ku alarm vei,timer_alarm
+study reminder every 2 hours,timer_alarm
+10 second countdown pannu,timer_alarm
+remind me after this song ends,timer_alarm
+how are you doing,chitchat
+tell me a joke,chitchat
+what is your name,chitchat
+are you an AI,chitchat
+who made you,chitchat
+what can you do,chitchat
+do you have feelings,chitchat
+are you better than Siri,chitchat
+what do you like,chitchat
+tell me something interesting,chitchat
+nee yaar,chitchat
+joke solu bro,chitchat
+enna panra nee,chitchat
+un peyar enna,chitchat
+nee AI ah,chitchat
+unakku feelings irukka,chitchat
+nee alexa la nalla irukiya,chitchat
+en friend aayvida,chitchat
+pesuvoma,chitchat
+interesting fact solu,chitchat
+bored ah iruku entertain pannu,chitchat
+are you smarter than Google,chitchat
+can you be my assistant,chitchat
+do you sleep,chitchat
+do you eat,chitchat
+what languages do you speak,chitchat
+are you always listening,chitchat
+can you learn new things,chitchat
+what is your favorite movie,chitchat
+tell me a fun fact,chitchat
+who is your creator,chitchat
+can you tell stories,chitchat
+are you free to talk,chitchat
+what do you think about robots,chitchat
+do you have a family,chitchat
+are you conscious,chitchat
+can you get angry,chitchat
+what makes you happy,chitchat
+do you dream,chitchat
+nee happy ah irukiya,chitchat
+nee yenna vishayam theriyum,chitchat
+un age enna,chitchat
+nee evlo naal ah iruka,chitchat
+un favorite food enna,chitchat
+nee tired ah irukiya,chitchat
+ungamma yaar,chitchat
+unga boss yaar,chitchat
+nee enna padichha,chitchat
+can you sing a song,chitchat
+tell me something funny,chitchat
