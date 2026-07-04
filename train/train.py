@@ -43,7 +43,7 @@ class IntentClassifier(nn.Module):
 
 #creating model instances
 input_size=X_train.shape[1]
-num_classes=5
+num_classes=len(encoder.classes_)
 
 model=IntentClassifier(input_size,num_classes)
 
@@ -95,3 +95,24 @@ with torch.no_grad():
     pred   = torch.argmax(output, dim=1)
     print(f"Input: {test_sentence}")
     print(f"Predicted: {encoder.classes_[pred]}")
+tests = [
+    "iniki weather enna",
+    "turn on the light",
+    "set timer 5 minutes",
+    "how are you"
+]
+
+model.eval()
+
+for text in tests:
+    features = vectorizer.transform([text]).toarray()
+    tensor = torch.FloatTensor(features)
+
+    with torch.no_grad():
+        output = model(tensor)
+        pred = torch.argmax(output, dim=1).item()
+
+    print(text)
+    print(output.numpy())
+    print(encoder.classes_[pred])
+    print()

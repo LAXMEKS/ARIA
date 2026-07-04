@@ -1,8 +1,3 @@
-""" Step 1: Load your trained model from .pt file
-Step 2: Load vectorizer from .pkl file
-Step 3: Switch model to eval mode
-Step 4: Create dummy input (same shape as real input)
-Step 5: Export to ONNX format """
 import sys, os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'train'))
 
@@ -24,6 +19,7 @@ print(state_dict['layer1.weight'].shape)
 
 print(state_dict['layer2.weight'].shape)
 # torch.Size([5, 128])
+model.load_state_dict(state_dict)   # <-- Add this line
 
 # Switch to eval mode
 model.eval()

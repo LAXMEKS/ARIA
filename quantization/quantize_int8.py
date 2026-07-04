@@ -17,7 +17,7 @@ print("Data shape:", real_data.shape)   # (251, 374)
 print("Data type:", real_data.dtype)    # float32
 
 def representative_data_gen():
-    for sample in real_data[:100]:
+    for sample in real_data:
         yield[sample.reshape(1,374)]
 converter = tf.lite.TFLiteConverter.from_saved_model(
     'models/tflite_output'                      # folder with saved_model.pb
@@ -33,7 +33,11 @@ output_path = 'models/intent_int8.tflite'
 with open(output_path, 'wb') as f:
     f.write(tflite_int8)
 print(f"Saved to {output_path}")
+interpreter = tf.lite.Interpreter("models/intent_int8.tflite")
+interpreter.allocate_tensors()
 
+print(interpreter.get_input_details())
+print(interpreter.get_output_details())
 # ── STEP 6: Size comparison ───────────────────────────────────────────────
 fp32_size = os.path.getsize('models/tflite_output/intent_classifier_float32.tflite') / 1024
 fp16_size = os.path.getsize('models/tflite_output/intent_classifier_float16.tflite') / 1024
